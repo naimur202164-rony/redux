@@ -8,3 +8,10 @@ export const decreaseCount=()=>{
         type:"DEC"
     }
 }
+
+
+export const resetCount=()=>{
+    return {
+        type:"RESET"
+    }
+}
