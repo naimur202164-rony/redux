@@ -18,3 +18,4 @@ const conunterReducer = (state = { count: 0 }, action) => {
       };
   }
 };
+export default conunterReducer;
