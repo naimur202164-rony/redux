@@ -2,7 +2,7 @@ import { createStore } from "react-redux";
 import reducers from "./reducers";
 
 const store = createStore(
-    reducers,
+  reducers,
   {},
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 );

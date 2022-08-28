@@ -5,7 +5,7 @@ import conunterReducer from "./counterReducer";
 
 const reducers=combineReducers(
     {
-        counter:conunterReducer
+        conunterReducer
     }
 )
 
